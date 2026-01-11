@@ -1,3 +1,10 @@
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/job159/GIT_CMD.git
+git push -u origin main
+
 git reset
 git reset --soft HEAD~1
 git commit --amend -m "新的 commit 訊息"
